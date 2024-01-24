@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey Adda</title>
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,12 +31,42 @@
         
         
     }
+    
   </style>
 </head>
 <body style="font-family: Manrope', sans-serif;">
     <header class=" container mx-auto">
-        <nav>
-
+        <nav class=" lg:mx-20 ">
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm gap-4  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                 <a class="text-orange-700" href="">Home</a>
+                 <a href="">About</a>
+                 <a href="">Pages</a>
+                 <a href="">Blog</a>
+                 <a href="">Contact</a>
+                </ul>
+              </div>
+              <div class="lg:text-4xl text-xl font-extrabold">Hockey <span class="text-orange-700">’</span>s</div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 gap-4  text-lg">
+                <a class="text-orange-700 text-bold text-lg" href="">Home</a>
+                <a href="">About</a>
+                <a href="">Pages</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <img src="./Images/kACh.png" alt="">
+              <a class="btn bg-orange-700 text-white">Button</a>
+            </div>
+          </div>
         </nav>
         <!-- Banner -->
         <section class="lg:mx-20">
@@ -73,7 +104,9 @@
                 <h3 class="text-2xl font-extrabold ">
                     Meet all the heroes from the field
                 </h3>
-                <p class="font-medium ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="font-medium ">From pitch to court, field to track, a legend's hand in yours. Dreams take flight, heroes ignite, your champion's journey 
+
+                </p>
             </div>
         </section>
        
@@ -86,7 +119,7 @@
             <div class="text-center">
                 <h2 class=" mb-6 text-4xl font-extrabold">Professional Hockeys Club</h2>
                 <p class="font-medium">
-                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
+                   We will connect you to all international Hockey clubs
                 </p>
             </div>
             <!-- pro-content -->
@@ -95,74 +128,63 @@
 <div class="text-center p-10 mt-3">
     <div class="radial-progress" style="color: blue; --value:70;" role="progressbar">70%</div>
 <h3 class="font-extrabold mt-4">Player facility's</h3>
-<p class=" mt-4 text-sm">Amet consectetur. Condimentum dignissim adipiscing .</p>
+<p class=" mt-4 text-sm">we provide numbers of facilities to our player</p>
 </div>
 <div class="text-center p-10">
     <div class="radial-progress" style=" color:aqua; --value:60;" role="progressbar">60%</div>
     <h3 class="font-extrabold mt-4">Experienced Coach</h3>
-    <p class="mt-4 text-sm">Amet consectetur. Condimentum dignissim adipiscing .</p>
+    <p class="mt-4 text-sm">we have the most Experienced coach in our bucket</p>
 </div>
 <div class="text-center p-10">
     <div class="radial-progress" style=" color:blueviolet; --value:80;" role="progressbar">80%</div>
     <h3 class="font-extrabold mt-4">Senior Player</h3>
-    <p class="mt-4 text-sm">Amet consectetur. Condimentum dignissim adipiscing .</p>
+    <p class="mt-4 text-sm">you can also share the pitch with lots of Experienced Senior player</p>
 </div>
 <div class="text-center p-10">
     <div class="radial-progress" style=" color:chartreuse; --value:100;" role="progressbar">100%</div>
     <h4 class="font-extrabold mt-4">Training Ground</h4>
-    <p class="mt-4 text-sm">Amet consectetur. Condimentum dignissim adipiscing .</p>
+    <p class="mt-4 text-sm">we have some international quality goround it will help you to grow to the international standard</p>
   
 </div>         
  </div>
  <hr>
         </section>
-        <!-- program-section -->
-
-        <!-- <section class="lg:mx-20 py-20 px-3">
-
-            <div class="text-center pb-10">
-                <h2 class="text-4xl font-extrabold">Program Sections</h2>
-                <p class="font-medium mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
-            </div>
-            <div class="flex justify-between grid grid-cols-1 lg:grid-cols-2 gap-5">
-                <div  class="relative text-white  " >
-                    <img src="./Images/2.png" alt="" class="">
-                <div class="absolute -mt-48 lg:-mt-56 p-5   ">
-                    <h3 class="text-2xl font-extrabold">Junior Program</h3>
-                <p class="  lg:w-[450px]">Dolor sit amet consectetur. 
-                    Ut urna diam quis <br> sagittis. Elit elit 
-                    enim sagittis turpis in magna. Id et sed  .</p>
-                    <button class="btn  bg-orange-700 lg:mt-5">Register Now</button>
-                </div>
-                </div>
-                <div class="relative text-white ">
-                    <img src="./Images/3.png" alt="">
-                    <div class="absolute -mt-48 lg:-mt-56 p-5 ">
-                        <h3 class="text-2xl font-extrabold">Teenage Program</h3>
-                <p class="w-[450px]">Dolor sit amet consectetur. <br> Ut urna diam quis sagittis. Elit elit <br>
-                    enim sagittis turpis in magna. Id et sed </p>
-                    <button class="btn  bg-orange-700 lg:mt-5">Register Now</button>
-                </div>
-                    </div>
-            </div>
-            <div class="relative mt-5">
-                <img src="./Images/4.png" alt="" class="h-[]">
-                <div class="text-white absolute  lg:-mt-56 p-10">
-                    <h3 class="text-2xl font-extrabold">Professional Program</h3>
-                <p>
-                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+   
+        <section class="lg:mx-20 py-20 px-3 ">
+          <div class="text-center mb-10">
+            <h2 class="text-4xl font-extrabold">Program Section</h2>
+            <p>we are offering some amazing Program according to your current surcumsatances </p>
+          </div>
+          <div class="flex flex-col lg:flex-row justify-between gap-5">
+            <div class=" rounded-xl w-full lg:w-[570px] h-auto lg:h-80 px-10 lg:px-10 py-10" style="background-image: url('./Images/2.png'); background-repeat: no-repeat;">
+            <h2 class="font-bold text-2xl text-white">Junior Program</h2>
+            <p class="text-white mt-5">If you'r kids is under 10 years of age, <br> then we have the most nicest environment for you'r kid <br>
+              
                 </p>
-                <button class="btn  bg-orange-700 ">Register Now</button> 
-                </div>
+              <button class="px-10 mt-2 lg:mt-5 py-5 text-white bg-orange-700 rounded-xl">Register Now!</button>
             </div>
-        </section> -->
+            <div class=" rounded-xl w-full h-auto lg:w-[570px] lg:h-80 px-10 py-10" style="background-image: url('./Images/3.png'); background-repeat: no-repeat;">
+              <h2 class="font-bold text-2xl text-white">Teenager Program</h2>
+            <p class="text-white mt-5">If you are under 14 years of age, <br> then we have the most nicest environment for you <br>
+              so what you waiting for <br>  join us today</p>
+              <button class="px-10 mt-2 lg:mt-5 py-5 bg-orange-700 rounded-xl text-white">Register Now!</button>
+
+            </div>
+          </div>
+          <div  class="  lg:pt-56 mt-5 rounded-xl w-full h-auto lg:w-auto lg:h-[450px] px-10 py-10 " style="background-image: url('./Images/4.png');">
+          <h2 class="font-bold text-2xl text-white">Professional Program</h2>
+          <p class="text-white mt-5">If you are  a professional Hockey player, then we are offering you a awesome environment of practicing, so join us today</p>
+            <button class="px-10 mt-2 lg:mt-5 py-5 bg-orange-700 rounded-xl text-white">Register Now!</button>
+
+          </div>
+
+        </section>
        
         <!-- new product sect -->
         <section class="lg:mx-20 py-20 px-3">
-          <div class="text-center">
+          <div class="text-center mb-20 ">
             <h2 class="text-2xl font-extrabold">Our New Products</h2>
-            <p >Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+            <p >you can get some amazing sports gears like jacket, Jersey cap, bat, helmet, and others accessories </p>
           </div>
           <div class=" grid grid-cols-1 lg:grid-cols-2 justify-between gap-4">
             <div class="  bg-base-200 ">
@@ -178,7 +200,7 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
                     200
                   </div>
                   <h1 class="text-xl font-extrabold">World Cup Jersey</h1>
-                  <p class="py-6 w-[270px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <p class="py-6 w-[270px]">we have some premium quality Jersey of  international Hockey clubs </p>
                    <div class="gap-2 flex items-center">
                     <p class="text-red-500 lg:font-extrabold">Price - $22.00</p>
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -199,8 +221,8 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
                     <img src="./Images/heart.png" alt="">
                     200
                   </div>
-                  <h1 class="text-xl font-extrabold">World Cup Jersey</h1>
-                  <p class="py-6 w-[270px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <h1 class="text-xl font-extrabold">Football Collection</h1>
+                  <p class="py-6 w-[270px]">you can get some amazing collections of soccer </p>
                   <div class="gap-2 flex items-center">
                     <p class="text-red-500 lg:font-extrabold">Price - $22.00</p>
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -221,8 +243,8 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
                     <img src="./Images/heart.png" alt="">
                     200
                   </div>
-                  <h1 class="text-xl font-extrabold">World Cup Jersey</h1>
-                  <p class="py-6 w-[270px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <h1 class="text-xl font-extrabold">Antic collections</h1>
+                  <p class="py-6 w-[270px]">we have some oldest sports shit, it will take you back to history of sports </p>
                   <div class="gap-3 flex items-center">
                     <p class="text-red-500 lg:font-extrabold">Price - $22.00</p>
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -243,8 +265,8 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
                     <img src="./Images/heart.png" alt="">
                     200
                   </div>
-                  <h1 class="text-xl font-extrabold">World Cup Jersey</h1>
-                  <p class="py-6 w-[270px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <h1 class="text-xl font-extrabold">Cap collections</h1>
+                  <p class="py-6 w-[270px]">get some nice looking baseball cap,   </p>
                   <div class="gap-3 flex items-center">
                     <p class="text-red-500 lg:font-extrabold">Price - $22.00</p>
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -265,8 +287,8 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
                     <img src="./Images/heart.png" alt="">
                     200
                   </div>
-                  <h1 class="text-xl font-extrabold">World Cup Jersey</h1>
-                  <p class="py-6 w-[270px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <h1 class="text-xl font-extrabold">T-shirt collections</h1>
+                  <p class="py-6 w-[270px]">we sorted out the best quality fabric in tshirt </p>
                   <div class="gap-3 flex items-center">
                     <p class="text-red-500 lg:font-extrabold">Price - $22.00</p>
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -287,8 +309,8 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
                     <img src="./Images/heart.png" alt="">
                     200
                   </div>
-                  <h1 class="text-xl font-extrabold">World Cup Jersey</h1>
-                  <p class="py-6 w-[270px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                  <h1 class="text-xl font-extrabold">Helmet Collection</h1>
+                  <p class="py-6 w-[270px]">you can get all kind of helmet in here, choose yours </p>
                   <div class="gap-3 flex items-center">
                     <p class="text-red-500 lg:font-extrabold">Price - $22.00</p>
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -377,8 +399,7 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
       <section class="lg:mx-20 py-20 px-3">
           <div class="text-center mb-3">
             <h3 class="font-extrabold text-4xl">Get In Touch</h3>
-            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>
-               dolor. Purus urna in sit nullam proin. </p>
+            <p>if you are not around, still you can get in touch with us by using all of these way down below</p>
           </div>
         <div class="flex flex-col lg:flex-row justify-between mt-16">
           <div class=" lg: space-y-5 mt-20">
@@ -450,13 +471,14 @@ enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. 
     </main>
     <footer>
       <section class="">
-        <footer class="footer lg:p-10 bg-neutral-900 text-neutral-content h-[900px] lg:h-[600px]">
+        <footer class="footer lg:p-10 bg-neutral-900 text-neutral-content ">
           <div class="lg:mx-20 lg:py-20 px-3  flex flex-col lg:flex-row lg:justify-between lg:space-x-40 ">
             <nav class=" lg:mt-10">
               <header class="footer-title "></header> 
               <h2 class="font-extrabold text-3xl ">Get In Touch</h2>
               <p class="mt-10">
-                Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
+                Get In Touch</h3>
+            <p>if you are not around, still you can get in touch with us by using all of these way down below
               </p>
               <div class="items-center text-xl text-red-600 lg:mt-20  ">
                 <i class="fa-regular fa-envelope"></i>
